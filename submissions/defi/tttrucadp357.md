@@ -1,50 +1,51 @@
-vApp Submission: zkPayStream
-
-## Verification
+vApp Submission: zkScholar
+Verification
 github_username: "tttrucadp357"
-discord_id: "917259060762538054"
-timestamp: "2025-08-28"
+discord_id: "123456789012345678"
+timestamp: "2025-08-29"
 
-## Developer
-Name: Tran Thi Truc
+Developer
+Name: Truc Tran Thanh
 GitHub: @tttrucadp357
 Discord: tttrucadp357
-Experience: Web3 developer with interest in defi applications and zk integration.
+Experience: Blockchain developer with experience in ZK applications and educational platforms.
 
-## Project
+Project
 Name & Category
-Project: zkPayStream
-Category: defi
+Project: zkScholar
+Category: social/identity
 
-## Description
-zkPayStream — Payment streaming dApp with zk proofs ensuring real-time salary/subscription integrity.
+Description
+zkScholar is a micro-learning platform where users can publish short lessons or tutorials. Contributions are verified via ZK-Proofs, ensuring authenticity while preserving privacy. Learners and educators earn reputation credits without exposing personal data.
 
-## SL Integration
-- Use zk proofs to verify actions and outcomes.  
-- Store lightweight proofs on-chain, keep heavy logic off-chain.  
-- Leverage Soundness Layer SDK for validation.  
+SL Integration
+Soundness Layer will be used to verify contributions and learning completions through ZK-Proofs, enabling proof-of-learning without disclosing identities or detailed activity logs.
 
-## Technical Architecture
-1. **Frontend**: React/Next.js dApp interface.  
-2. **Backend/Game/Engine**: Node.js or Rust with zkSNARKs integration.  
-3. **Soundness Layer**: On-chain zk verification and proof registry.  
-4. **Smart Contracts**: Core logic (registry, rewards, NFTs, leaderboards depending on project).  
+Technical
+Architecture
+Users submit lessons or completions → SL validates via ZK → Rewards & reputation are updated → Data stored off-chain.
+Stack
+Frontend: React
+Backend: Node.js
+Blockchain: SL + Ethereum
+Storage: WALRUS/IPFS
+Features
+- ZK-based contribution verification
+- Reputation system
+- Learning task proofs
 
-## Timeline
-**PoC (2–4 weeks)**  
-- Core contract skeleton + SL integration.  
-- Basic UI & proof verification prototype.  
+Timeline
+PoC (2-4 weeks)
+- Lesson submission
+- ZK validation integration
+- Basic UI
+MVP (4-8 weeks)
+- Full proof-of-learning flow
+- Reputation rewards
+- User testing
 
-**MVP (4–8 weeks)**  
-- Full feature set.  
-- Community testing.  
-- Production-ready UX.  
+Innovation
+A decentralized, privacy-preserving educational platform where learners prove their achievements without revealing sensitive data.
 
-## Innovation
-Unique zk-based approach to defi, ensuring privacy, fairness, and trustless verification.  
-
-## Contact
-Preferred contact: Discord (tttrucadp357)  
-Updates shared via GitHub and Discord.
-
----
+Contact
+Discord DM for updates and GitHub repo for progress tracking.
